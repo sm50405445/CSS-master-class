@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css grid</title>
+    <style>
+        .father{
+            display:grid;
+            grid-gap: 5px;
+            /*grid-template-columns: repeat(3,1fr) 4fr;*/
+            /*grid-template-columns: 1fr 1fr 3fr 1fr;*/
+            /*grid-template-columns: minmax(400px,2fr) repeat(3,1fr);*/
+            /*grid-template-columns: max-content repeat(3,1fr);*/
+            grid-template-columns: min-content repeat(3,1fr);
+
+        }
+        .first{
+            background-color: rgb(71, 15, 201);
+        }
+        .second{
+            background-color: green;
+        }
+        .third{
+            background-color: skyblue;
+        }
+        .fourth{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam nostrum vitae maiores saepe hic numquam excepturi eligendi et, sequi est sunt nihil recusandae minus? Rerum necessitatibus fugiat dolor officiis repudiandae?</div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div class="fourth"></div>
+    </div>
+</body>
+</html>

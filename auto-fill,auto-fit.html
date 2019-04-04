@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css grid</title>
+    <style>
+        .father{
+            display:grid;
+            grid-gap: 5px;
+            grid-auto-rows: 100px;
+            /*
+            auto-fit 해당 사이즈에 맞게 화면을 꽉채우면서 레이아웃을 잡는 것이고    
+            grid-template-columns: repeat(auto-fit,minmax(350px,1fr));*/
+            /*해당 사이즈에 나중에 더 들어올 content를 위해 빈 공간을 만들어 두는 것.*/
+            grid-template-columns: repeat(auto-fill,minmax(50px,1fr));
+            
+        }
+        .box:nth-child(even){
+            background-color: aqua;
+        }
+        .box:nth-child(odd){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

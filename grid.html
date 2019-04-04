@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css grid</title>
+    <style>
+        .father{
+            display:grid;
+            grid-auto-rows: 100px;
+            grid-gap: 5px;
+            grid-template-areas:"header header header"
+                                "content content sidebar"
+                                "content content sidebar"
+                                "footer footer footer";
+        }
+        .first{
+            grid-area: header;
+            background-color: rgb(71, 15, 201);
+        }
+        .second{
+            grid-area: sidebar;
+            background-color: green;
+        }
+        .third{
+            grid-area: footer;
+            background-color: skyblue;
+        }
+        .fourth{
+            grid-area: content;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div class="fourth"></div>
+    </div>
+</body>
+</html>
