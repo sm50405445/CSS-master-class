@@ -1,3 +1,34 @@
-body{
-    background-color: peachpuff;
+/*
+짝수와 target클래스만
+li:matches(:nth-child(even), .target){
+    background-color: blue;
 }
+
+.target 클래스만 제외하고
+li:not(.target){
+    background-color: blue;
+}*/
+
+/*:root{
+    --awesomeColor : #74b9ff
+}
+
+li:first-child a{
+    color : var(--awesomeColor);
+}*/
+
+/*@custom-selector : --headers h1, h2, h3, h4, h5, h6;
+
+:--headers {
+    color: #74b9ff;
+}*/
+
+/*@custom-media : --ipad-size (max-width: 850px);
+
+@media (--ipad-size){
+    body{
+        background-color: red;
+    }
+}*/
+
+

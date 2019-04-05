@@ -1,0 +1,123 @@
+li{
+    list-style: none;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.threeGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.header .header__column{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav span{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    display: block;
+    color: rgba(0,0,0,0.4);
+}
+
+.header__nav li{
+    margin-bottom: 10px;
+}
+
+.header__nav li:last-child{
+    margin-bottom: 0;
+}
+
+.grid{
+    grid-auto-rows: 30vh;
+    grid-gap: 20px;
+}
+
+.grid .grid__item{
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.grid .grid__item:first-child{
+    grid-row: span 2;
+    background-color: #D0EDF5; 
+}
+
+.grid .grid__item:nth-child(2){
+    grid-area: span 2 / span 2;
+    background-image: url(https://parrotsintheparlour.files.wordpress.com/2017/11/104299_211.jpg);
+}
+
+.grid .grid__item:nth-child(3){
+    background-color: #e2f0d6;
+
+}
+
+.grid .grid__item:nth-child(4){
+    grid-row: span 2;
+    background-image: url(https://ksassets.timeincuk.net/wp/uploads/sites/59/2018/09/Living-Etc_-Art-deco4833-1_211566821_322352492-884x1220.jpg)
+    
+}
+
+.grid .grid__item:nth-child(5){
+    background-color: #fcf8b9;
+}
+
+.grid .grid__item:nth-child(6){
+    background-color: #ebebeb;
+}
+
+.grid .grid__item:nth-child(7){
+    background-color: #ebebeb;
+}
+
+.grid .grid__item:nth-child(8){
+    background-color: #fdc3c2;
+    grid-area: span 2 / span 2;
+}
+
+.grid .grid__item:nth-child(9){
+    grid-row: span 2;
+    background-image: url(https://i-h1.pinimg.com/564x/63/89/55/638955df68cbcec4e77994c01ff473cf.jpg)
+}
+
+.grid .grid__item:nth-child(10){
+    grid-area: span 2 / span 2;
+    background-image: url(https://static1.squarespace.com/static/5bcdac6af8135a545959dce8/5bcdb771e4966bca9c92b43c/5c90c8d9e2c48363df7e58c1/1552992481228/window+%28Custom%29.jpg?format=500w)
+}
+
+.grid .grid__item:nth-child(11){
+    background-image: url(https://static1.squarespace.com/static/5bcdac6af8135a545959dce8/5bcdb771e4966bca9c92b43c/5bcde238085229820ce1965f/1540219502377/table2.jpg?format=500w)
+}
+
+.grid .grid__item:nth-child(12){
+    background-color: #d0edf5;
+}
+
+.grid .grid__item:nth-child(13){
+    grid-area: span 2 / span 2;
+    background-color: #e2f0d6;
+}
+
+.grid .grid__item:nth-child(14){
+    background-image: url(https://static1.squarespace.com/static/5bcdac6af8135a545959dce8/5bcdb771e4966bca9c92b43c/5bcddc7ae2c483bd4551453d/1552992464829/06.jpg?format=500w);
+}
+
+.grid .grid__item:nth-child(15){
+    background-color: #fcf8b9;
+}
