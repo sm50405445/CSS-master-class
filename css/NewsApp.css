@@ -1,0 +1,167 @@
+body{
+    padding-left: 20px;
+    max-width: 500px;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.header__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(65,65,69,0.9);
+}
+
+.featured{
+    margin-top: 30px;
+}
+
+.featured__title,.writer__title,.information__title{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(121,121,121,0.9);
+    font-weight: bold;
+}
+
+.featured__subtitle{
+    color: #CAD1D3;
+    margin-bottom: 10px;
+}
+
+.featured__wrapper{
+    height: 250px;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+}
+
+.featured__artist{
+    padding: 5px;
+    min-width: 200px;
+    height: 200px;
+
+}
+
+.featured__artist-background{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.featured-artist_title{
+    color: #ACACAE;
+    font-weight: bold;
+}
+
+.featured__artist:first-child .featured__artist-background{
+    background-image: url(https://bocadolobo.com/blog/wp-content/uploads/2018/06/Vincent-van-Gogh.jpg);
+}
+
+.featured__artist:nth-child(2) .featured__artist-background{
+    background-image: url(https://www.mmtimes.com/sites/mmtimes.com/files/styles/mmtimes_ratio_c_normal_detail_image/public/images/mte/2016/di403/5-artist-1.jpg?itok=gnBeXC02);
+}
+
+.featured__artist:nth-child(3) .featured__artist-background{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWUzdNLUUNf_xafT-YRy8bgiTi8mZsexAzYyW1JOvcftsDzWAkIg);
+}
+
+.writer{
+    margin-bottom: 50px;
+}
+
+.writer__introduce{
+    display: flex;
+    padding: 10px;
+    overflow-x:scroll;
+}
+.writer__wrapper{
+    min-width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 5px 5px rgba(0,0,0,0.2),0 4px 4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+
+}
+
+.writer__title{
+    margin-bottom: 10px;
+}
+
+.writer__img{
+    width: 50px;
+    height: 50px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.writer__information{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.writer__name{
+    padding-bottom: 10px;
+}
+
+.writer__wrapper:first-child .writer__img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Toadette_%28Mario%29.png/220px-Toadette_%28Mario%29.png);
+}
+
+.writer__wrapper:nth-child(2) .writer__img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTk8ED79ma_urK6wiXNiTtP_hpdjWF19O-pCm1Qtkifs7fRUPxkg);
+}
+
+
+.information__wrapper{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.information__title{
+    margin-bottom: 10px;
+}
+
+.information__img{
+    min-width: 100px;
+    height: 100px;
+    background-image: url(https://s7d9.scene7.com/is/image/DisneyStoreES/Character_Assets_Atmb-sq_character-ant-man_launch?$sq-c$);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.information__status{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.status-1{
+    font-size: 15px;
+    color: #55595C;
+    font-weight: bold;
+}
+
+.status-2{
+    font-size: 13px;
+    color:rgb(153, 152, 152);
+}
+
+.status-3{
+    font-size: 10px;
+    color:rgb(212, 211, 211);
+}
