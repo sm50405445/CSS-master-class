@@ -1,0 +1,111 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fafafc;
+    color: rgba(0,0,0,0.8);
+    padding: 0px 15px;
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header__title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header__subtitle{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.flex-top__items{
+    min-width: 400px;
+    max-width: 540px;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://static.boredpanda.com/blog/wp-content/uploads/2017/02/IMG_20170114_222025_931-58a01296a1b60__880.jpg);
+}
+
+.flex-top__title{
+    align-self: flex-end;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.flex-top__subtitle{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.flex-main__items{
+    min-width: 400px;
+    max-width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+.flex-main__item{
+   width: 48%;
+   margin-bottom: 10px;
+}
+
+.flex-main__item:nth-child(odd){
+    padding-right: 2%;
+}
+
+.flex-main__item:nth-child(even){
+    padding-left: 2%;
+}
+
+.item__img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.item__title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.item__subtitle{
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(0,0,0,0.6);
+}
+
+.flex-main__item:first-child .item__img{
+    background-image: url(https://data.whicdn.com/images/313249048/original.jpg);
+}
+
+
+.flex-main__item:nth-child(2) .item__img{
+    background-image: url(http://i.imgur.com/rYqyt7d.jpg);
+}
+
+.flex-main__item:nth-child(3) .item__img{
+    background-image: url(https://cdn.shopify.com/s/files/1/0952/9016/products/Flower-Kitty-Jeremiah-Ketner.jpg?v=1439783676);
+}
+
+.flex-main__item:nth-child(4) .item__img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNJQOVW1ZluVXMVMPU9IxBGqhZfcq7UQ4FRhoVP-TWAqxYerrs);
+}
