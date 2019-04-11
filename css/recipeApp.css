@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 400px;
+    min-width: 380px;
+    padding: 0 20px;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.header__bottom{
+    margin-bottom: 50px;
+}
+
+.header__bottom-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.bottom-top__title{
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+.bottom-top__icons{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-top__icons i{
+    font-size: 20px;
+    padding: 0 15px;
+    color: #ebebeb;
+}
+
+.header__bottom-subtitle{
+    font-size: 13px;
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+}
+
+.main__gallery{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.main__gallery-img{
+    width: 100%;
+    height: 40vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/87/17/0857d1192214be1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 30px;
+}
+
+.gallery-img__heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img__heart i{
+    color: red;
+}
+
+.main__gallery-info{
+    position: absolute;
+    bottom: -70px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 20px rgba(50,50,93,0.1);
+}
+
+.gallery-info_top{
+    margin-bottom: 20px; 
+}
+
+.gallery-info_title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.gallery-info_subtitle{
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+}
+
+.gallery-info_items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.gallery-info_item{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.gallery-info_item i{
+    margin-right: 5px;
+    color: black;
+}
+
+.gallery-info_bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-info_bottom .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #ebebeb;
+    margin: 0 2px;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+}
+
+.gallery-info_bottom .dot:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.footer{
+    padding-bottom: 10px;
+}
+
+.footer__recommended-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.footer__recommended-title{
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.footer__recommended-subtitle{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer__recommended-items{
+    height: 40vh;
+    padding: 10px;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.footer__recommended-item{
+    min-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.recommended-item__img{
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.recommended-item__title{
+    font-weight: bold;
+}
+
+.footer__recommended-item:first-child .recommended-item__img{
+    background-image: url(https://wp.freedomofcreation.co.uk/dandev/wp-content/uploads/sites/101/2018/06/background-design-trends.jpg);
+}
+
+.footer__recommended-item:nth-child(2) .recommended-item__img{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg);
+}
