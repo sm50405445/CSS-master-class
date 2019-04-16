@@ -1,0 +1,114 @@
+body{
+    max-width: 560px;
+    background-color: #D5D5D3;
+}
+
+i.fa.fa-check.fa-2x{
+    color: rgba(0,0,0,0.4);
+}
+.header{
+    padding: 20px;
+    height: 10vh;
+    background-image: linear-gradient(to left,rgb(171,109,255),#75B9F6);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6), 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.header__title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__items i{
+    padding: 0 20px;
+}
+
+.main{
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+    position: relative;
+}
+
+.main__title{
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main__subtitle{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.main__item{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__item-img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main__item-story{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-story__title{
+    font-size: 20px;
+}
+
+.item-story__friends{
+    font-size: 14px;
+    color: rgba(0,0,0,0.3);}
+
+.main__item i{
+    align-self: center;
+    color: rgba(0,0,0,0.6);
+}
+
+.main__item:first-child .main__item-img{
+    background-image: url(http://worldartsme.com/images/character-clipart-1.jpg);
+}
+
+.main__item:nth-child(2) .main__item-img{
+    background-image: url(https://images.indianexpress.com/2018/10/apu759.jpg);
+}
+
+.main__item:nth-child(3) .main__item-img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS-aNewezwdIx7m97yAIwQDMNpiSDvXPCbdmCHddXC9Rb-q7zxUg);
+}
+
+.main__item:nth-child(4) .main__item-img{
+    background-image: url(https://d1fs8ljxwyzba6.cloudfront.net/assets/editorial/2019/01/jump-force-goku.jpg);
+}
+
+.main__followBtn{
+    position: fixed;
+    border: 1px solid;
+    width: 20vh;
+    height: 10vh;
+    bottom: 50px;
+    right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left,rgb(171,109,255),#75B9F6);
+    color: white;
+    font-weight: bold;
+}
