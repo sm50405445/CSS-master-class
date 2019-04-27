@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+}
+
+.header{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main__slider{
+    width: 100%;
+    height: 30vh;
+    background-color: #EEEEF6;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__slider-items{
+    width: 100%;
+    max-width: 900px;
+    height: 90%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__slider-item{
+    width: 40%;
+    height: 90%;
+    margin: 0 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main__slider-item:first-child{
+    background-image: url(https://uk.phaidon.com/resource/300-301-longaberger-basket.jpg);
+}
+
+.main__slider-item:nth-child(2){
+    background-image: url(http://webneel.com/daily/sites/default/files/images/daily/08-2014/wall-art-building.jpg);
+}
+
+.main__slider-item:nth-child(3){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu5q7HQ90KrxiUx_F6nnMN84QbTF6EDU_vuo1N6RPFawBYT8QHfg);
+}
+
+.footer{
+    width: 90%;
+    max-width: 900px;
+    height: 40vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer__left{
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__left-title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer__left-siblings{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.footer__left-sibling{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.left-sibling__title{
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.left-sibling__subtitle{
+    font-size: 14px;
+}
+
+.footer__left-story{
+    color: rgba(0,0,0,0.3);
+    padding-bottom: 20px;
+}
+
+.footer__right{
+    height: 100%;
+    padding: 15px 20px;
+}
+
+.footer__right-items{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__right-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-item__title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.right-item__subtitle{
+    color:rgba(0,0,0,0.3);
+}
